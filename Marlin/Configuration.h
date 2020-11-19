@@ -111,7 +111,7 @@
  * Number of grid points in each direction
  * Minimum 3. Maximum 15 for UBL. Maximum 7 for MANUAL
  */
-#define GRID_POINTS        3
+#define GRID_POINTS        4
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
@@ -188,11 +188,11 @@
  *       CUSTOM_USER_MENUS for PETG to appear, along with PLA and ABS, under Custom Commands.
  *       PLA and ABS will appear under both Custom Command and Prepare.
  */
-#define Hot_PLA     215
+#define Hot_PLA     210
 #define Bed_PLA      75
 
 #define Hot_ABS 		240
-#define Bed_ABS 		105
+#define Bed_ABS 		115
 
 #define Hot_PETG 		230
 #define Bed_PETG     80
